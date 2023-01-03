@@ -1,0 +1,11 @@
+name: Publish Release
+
+on:
+  push:
+    branches: 
+      - master
+
+jobs:
+  workflow-calling:
+    uses: tiagomartimiano/github-nuget-prerelease-release-workflow/.github/workflows/dotnet-nuget-release.yml@v1.0.0
+    secrets: inherit

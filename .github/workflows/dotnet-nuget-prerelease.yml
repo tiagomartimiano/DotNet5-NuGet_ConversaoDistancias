@@ -1,0 +1,10 @@
+name: Publish Prerelease
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize]
+
+jobs:
+  workflow-calling:
+    uses: tiagomartimiano/github-nuget-prerelease-release-workflow/.github/workflows/dotnet-nuget-prerelease.yml@v1.0.0
+    secrets: inherit

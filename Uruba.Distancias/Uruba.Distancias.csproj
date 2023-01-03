@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <PackageId>Uruba.Distancias</PackageId>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Tiago Uruba</Authors>
+    <Company>Uruba</Company>
+    <PackageTags>NuGet;.NET 6;Classlib;GitHub;Actions</PackageTags>
+    <Description>
+      Biblioteca para conversão de distâncias em Milhas para Km
+    </Description>
+  </PropertyGroup>
+
+</Project>
